@@ -192,9 +192,10 @@ img {
 }
 
 header {
-  width:15%;
+  width:20%;
   float:right;
-	
+	position:fixed;
+	right: 0.5%;
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -259,8 +260,10 @@ header ul a strong {
 
 section {
   width:65%;
-  float:right;
+
   padding-bottom:50px;
+  padding-left: 20%;
+  padding-right:16%
 }
 
 small {
