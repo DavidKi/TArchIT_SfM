@@ -13,8 +13,41 @@
     <![endif]-->
   </head>
   <body>
+	   <div class="inhaltsverz"
+          <ul>INHALT</ul>
+          <li><a href="#kapitel-1-erste-schritte-in-visual-sfm">Kapitel 1: Erste Schritte in Visual SFM</a></li>
+            <ul>
+              <li><a href="#installation">1.1. Installation 3</a></li>
+              <li><a href="#überblick-programmoberfläche-visual-sfm-start">1.2. Überblick Programmoberfläche Visual SfM (Start)</a></li>
+              <li><a href="#schritt-1-importieren-der-fotos">1.3. Schritt 1: Importieren der Fotos 5</a></li>
+              <li><a href="#schritt-2-berechnung-der-dünnen-punktwolke">1.4. Schritt 2: Berechnung der dünnen Punktwolke</a></li>
+              <li><a href="#schritt-3-berechnung-der-dichten-punktwolke">1.5. Schritt 3: Berechnung der dichten Punktwolke</a></li>
+              <li><a href="#zusammenfassung-workflow-visualsfm">1.6. Zusammenfassung Workflow VisualSfM</a></li>
+            </ul>
+          <li><a href="#kapitel-2-erste-schritte-in-meshlab">Kapitel 2: Erste Schritte in MeshLab</a></li>
+			<ul>
+				<li><a href="#installation-1">2.1. Installation 8</a></li>
+				<li><a href="#überblick-programmoberfläche-meshlab">2.2. Überblick Programmoberfläche MeshLab</a></li>
+				<li><a href="#laden-der-visualsfm-punktwolken">2.3. Laden der VisualSFM-Punktwolken</a></li>
+				<li><a href="#bereinigung-der-dichten-punktwolke">2.4. Bereinigung der dichten Punktwolkea</a>
+				<li><a href="#konvertierung-der-dichten-punktwolke-in-ein-gitter">2.5. Konvertierung der dichten Punktwolke in ein Gitter </a></li>
+				<li><a href="#bereinigung-des-gitter-non-manifold-edges">2.6. Bereinigung des Gitter (Non-Manifold Edges) </a></li>
+				<li><a href="#parametrisierung-der-textur-export">2.7. Parametrisierung der Textur / Export </a></li>
+				<li><a href="#zusammenfassung-workflow-meshlab">2.8. Zusammenfassung Workflow MeshLab</a></li>
+			</ul>
+          <li><a href="#kapitel-3-erste-schritte-in-blender">Kapitel 3: Erste Schritte in Blender</a></li>
+			<ul>
+          <li><a href="#installation-und-allgemeines">3.1. Installation und Allgemeines</a></li>
+          <li><a href="#überblick-programmoberfläche-blender">3.2. Überblick Programmoberfläche Blender</a></li>
+          <li><a href="#grundlegendes">3.3. Grundlegendes</a></li>
+          <li><a href="#textur-auflegen">3.4. Textur auflegen</a></li>
+          <li><a href="#animation-rundflug">3.5. Animation „Rundflug“</a></li>
+          <li><a href="#animation-beleuchtung">3.6. Animation: Beleuchtung</a></li>
+          <li><a href="#animation-videoexport">3.7. Animation: Videoexport</a></li>
+			</ul>	
+      </div>
     <div class="wrapper">
-      <header>
+   <header>
         <h1>Tarchit sfm</h1>
         <p>Leitfaden zur Anwendung von Open-Source-Software für Structure from Motion in der Archäologie</p>
 
@@ -27,39 +60,13 @@
         <p>Jonas Abele, Marcel C. Hagner, David Kirschenheuter, Florian Tubbesing</p>
         
         
-        <nav><ul>INHALT</ul>
-          <li><a href="#kapitel-1-erste-schritte-in-visual-sfm">Kapitel 1: Erste Schritte in Visual SFM</a></li>
-            <ul>
-              <li><a href="#installation">1.1. Installation 3</a></li>
-              <li><a href="#überblick-programmoberfläche-visual-sfm-start">1.2. Überblick Programmoberfläche Visual SfM (Start)</a></li>
-              <li><a href="#schritt-1-importieren-der-fotos">1.3. Schritt 1: Importieren der Fotos 5</a></li>
-              <li><a href="#schritt-2-berechnung-der-dünnen-punktwolke">1.4. Schritt 2: Berechnung der dünnen Punktwolke</a></li>
-              <li><a href="#schritt-3-berechnung-der-dichten-punktwolke">1.5. Schritt 3: Berechnung der dichten Punktwolke</a></p>
-              <li><a href="#zusammenfassung-workflow-visualsfm">1.6. Zusammenfassung Workflow VisualSfM</a></p>
-            </ul>
-          <li><a href="#kapitel-2-erste-schritte-in-meshlab">Kapitel 2: Erste Schritte in MeshLab</a></li>
-          <a href="#installation-1">2.1. Installation 8</a>
-          <a href="#überblick-programmoberfläche-meshlab">2.2. Überblick Programmoberfläche MeshLab</a>
-          <a href="#laden-der-visualsfm-punktwolken">2.3. Laden der VisualSFM-Punktwolken</a>
-          <a href="#bereinigung-der-dichten-punktwolke">2.4. Bereinigung der dichten Punktwolkea</a>
-          <a href="#konvertierung-der-dichten-punktwolke-in-ein-gitter">2.5. Konvertierung der dichten Punktwolke in ein Gitter </a>
-          <a href="#bereinigung-des-gitter-non-manifold-edges">2.6. Bereinigung des Gitter (Non-Manifold Edges) </a>
-          <a href="#parametrisierung-der-textur-export">2.7. Parametrisierung der Textur / Export </a>
-          <a href="#zusammenfassung-workflow-meshlab">2.8. Zusammenfassung Workflow MeshLab</a>
-          <a href="#kapitel-3-erste-schritte-in-blender">Kapitel 3: Erste Schritte in Blender</a>
-          <a href="#installation-und-allgemeines">3.1. Installation und Allgemeines</a>
-          <a href="#überblick-programmoberfläche-blender">3.2. Überblick Programmoberfläche Blender</a>
-          <a href="#grundlegendes">3.3. Grundlegendes</a>
-          <a href="#textur-auflegen">3.4. Textur auflegen</a>
-          <a href="#animation-rundflug">3.5. Animation „Rundflug“</a>
-          <a href="#animation-beleuchtung">3.6. Animation: Beleuchtung</a>
-          <a href="#animation-videoexport">3.7. Animation: Videoexport</a>
-        </nav>
+    
               <footer>
         <p>This project is maintained by <a href="https://github.com/TarchIT">TArchIT</a></p>
         <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
       </footer>
       </header>
+     
       <section>
         <blockquote>
 <p>TArchIT Workshop</p>
@@ -536,8 +543,9 @@ Programmordner von VisualSFM abgespeichert und muss somit nicht mehr separat her
 </ul></li>
 </ul>
       </section>
-
+   
     </div>
+    
     <script src="javascripts/scale.fix.js"></script>
     
   </body>
