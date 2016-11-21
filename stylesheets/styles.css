@@ -56,11 +56,45 @@
 
 body {
   background-color: #fff;
-  padding:50px;
+  padding:1%;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
 }
+
+/*Inhaltsverzeichnis unter header und neben section*/
+.inhaltsverz {
+  width:20%;
+  float:left;
+ position:fixed;
+  -webkit-font-smoothing:subpixel-antialiased;
+overflow: auto;  /*Scroll-Funktion Verzeichnis, height muss gesetzt sein*/
+	height: 90%;
+}
+
+.inhaltsverz ul {
+font-size:2.5vh; color:#bfe1f1;
+list-style:none;
+
+}
+
+.inhaltsverz li {
+font-size:2.5vh; color:#bfe1f1;
+list-style:none;
+}
+
+
+
+/* LIST #2 */
+#list2 { width:320px; }
+#list2 ol { font-style:italic; font-family:Georgia, Times, serif; font-size:24px; color:#bfe1f1;  }
+#list2 ol li { }
+#list2 ol li p { padding:8px; font-style:normal; font-family:Arial; font-size:13px; color:#eee; border-left: 1px solid #999; }
+#list2 ol li p em { display:block; }
+
+
+
+
 
 h1, h2, h3, h4, h5, h6 {
   color:#222;
@@ -158,9 +192,9 @@ img {
 }
 
 header {
-  width:25%;
-  float:left;
-  position:fixed;
+  width:15%;
+  float:right;
+	
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
@@ -261,15 +295,11 @@ footer {
     width:auto;
   }
 
-  header {
-    padding-right:320px;
-  }
-
+ 
   section {
     border:1px solid #e5e5e5;
     border-width:1px 0;
-    padding:20px 0;
-    margin:0 0 20px;
+
   }
 
   header a small {
