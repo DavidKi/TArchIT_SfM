@@ -108,12 +108,8 @@ a:hover small {
 }
 
 .wrapper {
-  width:860px;
+  width:90%;
   margin:0 auto;
-}
-
-.nav {
-  width:auto;
 }
 
 blockquote {
@@ -162,7 +158,7 @@ img {
 }
 
 header {
-  width:270px;
+  width:25%;
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
@@ -172,16 +168,16 @@ header ul {
   list-style:none;
   height:40px;
   padding:0;
-  
+  background: #f4f4f4;
   border-radius:5px;
-  
+  border:1px solid #e0e0e0;
   width:270px;
 }
 
 header li {
   width:89px;
   float:left;
-  
+  border-right:1px solid #e0e0e0;
   height:40px;
 }
 
@@ -228,7 +224,7 @@ header ul a strong {
 }
 
 section {
-  width:500px;
+  width:65%;
   float:right;
   padding-bottom:50px;
 }
@@ -245,9 +241,9 @@ hr {
 }
 
 footer {
-  width:270px;
+  width:100%;
   float:left;
-  position:fixed;
+  
   bottom:50px;
   -webkit-font-smoothing:subpixel-antialiased;
 }
