@@ -64,7 +64,7 @@ body {
 
 /*Inhaltsverzeichnis unter header und neben section*/
 .inhaltsverz {
-  width:20%;
+  width:15%;
   float:left;
  position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
