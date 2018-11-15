@@ -73,14 +73,14 @@ overflow: auto;  /*Scroll-Funktion Verzeichnis, height muss gesetzt sein*/
 }
 
 .inhaltsverz ul {
-font-size:1vh; 
+font-size:1.5vh; 
 color:#bfe1f1;
 list-style:none;
 
 }
 
 .inhaltsverz li {
-font-size:1vh; 
+font-size:1.2vh; 
 color:#bfe1f1;
 list-style:none;
 }
